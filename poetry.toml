@@ -1,0 +1,10 @@
+[virtualenvs]
+create = true
+in-project = true
+
+[repositories]
+[repositories.dev]
+url = "https://openbridge-791778434480.d.codeartifact.us-east-1.amazonaws.com/pypi/backend-dev/"
+
+[repositories.production]
+url = "https://openbridge-791778434480.d.codeartifact.us-east-1.amazonaws.com/pypi/backend/"
